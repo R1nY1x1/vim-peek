@@ -98,7 +98,10 @@ function! s:create_window() abort
       let opt.line = 3
       call popup_move(s:last_popup_window, opt)
       call win_execute(s:last_popup_window, 'syntax enable')
-      call win_execute(s:last_popup_window, "source /usr/share/vim/vim82/syntax/".&filetype.".vim")
+      try
+        call win_execute(s:last_popup_window, "source /usr/share/vim/vim82/syntax/".&filetype.".vim")
+      catch /E484:/
+      endtry
       redraw
     else
       call s:echoerr("this version doesn't support popup or floating window")
