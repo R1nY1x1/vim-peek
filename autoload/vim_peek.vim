@@ -47,7 +47,7 @@ function! s:peek_exit_cb(job, status) abort
 endfunction
 
 function! s:filter(id, key) abort
-  if a:key ==# 'y'
+  if a:key ==# 'c'
     call setreg(v:register, s:result)
     call popup_close(a:id)
     return 1

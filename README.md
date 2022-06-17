@@ -1,5 +1,6 @@
-# VIM-POSTIT
+# VIM-PEEK
 This is vim plugin. NOT for neovim.
+
 You can PEEK your code, and handle like Post-It.
 
 # Instllation
@@ -17,11 +18,12 @@ Handle code-block
 ```
 
 ## Keybinding
-| operation | key                          |
-|-----------|------------------------------|
-| Peek      | <kbd>Ctrl<kbd> + <kbd>p<kbd> |
-| MoveStart | <kbd>Ctrl<kbd> + <kbd>m<kbd> |
-| left      | <kbd>h<kbd>                  |
-| down      | <kbd>j<kbd>                  |
-| up        | <kbd>k<kbd>                  |
-| right     | <kbd>l<kbd>                  |
+| operation | key                                      |
+|-----------|------------------------------------------|
+| Peek      | <kbd><kbd>Ctrl</kbd> + <kbd>p</kbd><kbd> |
+| MoveStart | <kbd>Ctrl<kbd> + <kbd>m<kbd>             |
+| left      | <kbd>h<kbd>                              |
+| down      | <kbd>j<kbd>                              |
+| up        | <kbd>k<kbd>                              |
+| right     | <kbd>l<kbd>                              |
+| Close     | <kbd><kbd>Ctrl</kbd> + <kbd>c</kbd><kbd> |
