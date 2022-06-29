@@ -18,12 +18,12 @@ Handle code-block
 ```
 
 ## Keybinding
-| operation | key                                      |
-|-----------|------------------------------------------|
-| Peek      | <kbd><kbd>Ctrl</kbd> + <kbd>p</kbd><kbd> |
-| MoveStart | <kbd>Ctrl<kbd> + <kbd>m<kbd>             |
-| left      | <kbd>h<kbd>                              |
-| down      | <kbd>j<kbd>                              |
-| up        | <kbd>k<kbd>                              |
-| right     | <kbd>l<kbd>                              |
-| Close     | <kbd><kbd>Ctrl</kbd> + <kbd>c</kbd><kbd> |
+| operation | key                                       |
+|-----------|-------------------------------------------|
+| Peek      | <kbd><kbd>Ctrl</kbd> + <kbd>p</kbd></kbd> |
+| MoveStart | <kbd>Ctrl</kbd> + <kbd>m</kbd>            |
+| left      | <kbd>h</kbd>                              |
+| down      | <kbd>j</kbd>                              |
+| up        | <kbd>k</kbd>                              |
+| right     | <kbd>l</kbd>                              |
+| Close     | <kbd><kbd>Ctrl</kbd> + <kbd>c</kbd></kbd> |
