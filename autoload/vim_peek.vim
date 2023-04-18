@@ -99,7 +99,7 @@ function! s:create_window() abort
       call popup_move(s:last_popup_window, opt)
       call win_execute(s:last_popup_window, 'syntax enable')
       try
-        call win_execute(s:last_popup_window, "source /usr/share/vim/vim82/syntax/".&filetype.".vim")
+        call win_execute(s:last_popup_window, "source /usr/share/vim/vim90/syntax/".&filetype.".vim")
       catch /E484:/
       endtry
       redraw
